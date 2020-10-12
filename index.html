@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .maindiv {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .row1 {
+            width: 20%;
+            background-color: lightblue;
+            height: 100vh;
+        }
+
+        .row2 {
+            width: 80%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .column1 {
+            background-color: lime;
+            height: 15vh;
+        }
+
+        .column2 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .row3 {
+            width: 75%;
+            height: 85vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .column3 {
+            height: 70vh;
+            background-color: white;
+        }
+
+        .column4 {
+            background-color: lime;
+            height: 15vh;
+        }
+
+        .row4 {
+            width: 25%;
+            height: 85vh;
+            background-color: lightgray;
+        }
+
+        p {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="row1">
+            <p>Nav</p>
+        </div>
+        <div class="row2">
+            <div class="column1">
+                <p>Header</p>
+            </div>
+            <div class="column2">
+                <div class="row3">
+                    <div class="column3">
+                        <p>Article</p>
+                    </div>
+                    <div class="column4">
+                        <p>Footer</p>
+                    </div>
+                </div>
+                <div class="row4">
+                    <p>Aside</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
